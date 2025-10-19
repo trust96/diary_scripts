@@ -1,0 +1,22 @@
+{
+  "bin": {
+    "diary": "index.js"
+  },
+  "type": "module",
+  "name": "diary_scripts",
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "build": "tsc && yarn link"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.1",
+    "figlet": "^1.9.3",
+    "inquirer": "^12.10.0",
+    "ora": "^9.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "outDir": ".",
+    "sourceMap": false,
+    "rootDir": "src",
+    "lib": ["ESNext", "DOM"],
+    "module": "nodenext",
+    "target": "esnext",
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*.ts", "./express-session-type.d.ts"],
+  "exclude": ["node_modules"]
+}

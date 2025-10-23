@@ -1,12 +1,13 @@
 {
   "bin": {
-    "diary": "index.js"
+    "diary": "./dist/index.js"
   },
+  "version": "1.0.0",
   "type": "module",
   "name": "diary_scripts",
   "packageManager": "yarn@4.10.3",
   "scripts": {
-    "build": "tsc && yarn link"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^24.8.1",

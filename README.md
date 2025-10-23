@@ -3,3 +3,8 @@
 - [ ] Create a new day entry with a command
 - [ ] Open diaries with a command (the current day, week, month, year) in the browser
 - [ ] Edit a diary entry with a command (goals, routine, people, guide, yyyy, mm, dd, yyyy-mm-dd, today, yesterday)
+
+## Steps to install to my computer
+
+- [ ] yarn build
+- [ ] npm install -g .

@@ -4,7 +4,7 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "outDir": ".",
+    "outDir": "dist",
     "sourceMap": false,
     "rootDir": "src",
     "lib": ["ESNext", "DOM"],

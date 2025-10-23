@@ -356,7 +356,7 @@ __metadata:
     ora: "npm:^9.0.0"
     typescript: "npm:^5.9.3"
   bin:
-    diary: index.js
+    diary: ./bin/index.js
   languageName: unknown
   linkType: soft
 

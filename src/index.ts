@@ -7,7 +7,7 @@ import { formatDate } from "./helper/formatDate.js";
 import { getPrimaryTitle } from "./helper/getPrimaryTitle.js";
 import { getLayout } from "./helper/getLayout.js";
 const program = new Command();
-const diaryPath = path.join(os.homedir(), "diary");
+const diaryPath = path.join(os.homedir(),"projects", "diary");
 const routinesPath = path.join(diaryPath, "routines");
 program
   .command("new")
